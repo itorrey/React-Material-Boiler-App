@@ -106,6 +106,21 @@
       "react-app"
     ]
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MrVann/React-Material-Boiler-App.git"
+  },
+  "keywords": [
+    "react",
+    "boilerplate",
+    "material",
+    "mui",
+    "materialui",
+    "responsive",
+    "redux"
+  ],
+  "author": "David Vann",
+  "license": "MIT",
   "eslintConfig": {
     "extends": "react-app"
   }
