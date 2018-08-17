@@ -1,0 +1,25 @@
+@import './colors.scss';
+
+.background-light-hint{
+  background: rgba(255,255,255,0.2) !important;
+}
+
+.background-theme{
+  @extend %background-animation;
+}
+
+.background-theme-light{
+  background: radial-gradient($theme-color-light, $theme-color-dark) !important;
+  background-size: 600% 600% !important;
+  background-position:100% 0% !important;
+}
+
+.custom-list-item{
+  color: white !important;
+}
+
+.drawer-background-theme-light div[class^=MuiPaper-root]{
+  background: radial-gradient($theme-color-light, $theme-color-dark) !important;
+  background-size: 600% 600% !important;
+  background-position:100% 0% !important;
+}

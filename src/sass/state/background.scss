@@ -1,0 +1,14 @@
+@import '../helpers/variables';
+@import '../layout/main';
+
+.s-background-gradient{
+  @extend %background-animation;
+}
+
+.s-background-static{
+  //background: $theme-color-dark !important;
+}
+
+.s-background-light{
+  background: $theme-color-light-hint !important;
+}

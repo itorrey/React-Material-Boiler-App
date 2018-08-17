@@ -1,0 +1,25 @@
+.c-login{
+  width:auto;
+  max-width: 300px;
+  min-width: 300px;
+  margin-left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  position: relative;
+  opacity: 1;
+  transition: 1s;
+  &.--hide{
+    transform: translate(-50%, -50%) scale(0.7);
+    opacity: 0;
+    filter: blur(4px);
+  }
+  &__message{
+    position: absolute;
+    bottom: -40px;
+    width: 100%;
+    right: 0px;
+    padding: 10px;
+    text-align: center;
+    background: rgba(255,255,255,0.7) !important;
+  }
+}

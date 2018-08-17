@@ -1,0 +1,37 @@
+.l-main__gradient.--animate, .s-background-gradient {
+  background: radial-gradient(#1afcdd, #046191) !important;
+  background-size: 600% 600% !important;
+  -webkit-animation: BackgroundLoop 20s ease infinite !important;
+  -moz-animation: BackgroundLoop 20s ease infinite !important;
+  animation: BackgroundLoop 20s ease infinite !important; }
+
+@-webkit-keyframes BackgroundLoop {
+  0% {
+    background-position: 0% 70%; }
+  50% {
+    background-position: 100% 70%; }
+  100% {
+    background-position: 0% 70%; } }
+
+@-moz-keyframes BackgroundLoop {
+  0% {
+    background-position: 0% 70%; }
+  50% {
+    background-position: 100% 70%; }
+  100% {
+    background-position: 0% 70%; } }
+
+@keyframes BackgroundLoop {
+  0% {
+    background-position: 0% 0%; }
+  50% {
+    background-position: 100% 0%; }
+  100% {
+    background-position: 0% 0%; } }
+
+.l-main, .l-main__gradient {
+  width: 100%;
+  height: 100%; }
+
+.s-background-light {
+  background: rgba(144, 147, 145, 0.07) !important; }

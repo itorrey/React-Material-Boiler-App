@@ -1,0 +1,36 @@
+%background-animation{
+  background: radial-gradient($color-background-light, $color-background-dark) !important;
+  background-size: 600% 600% !important;
+  -webkit-animation: BackgroundLoop 20s ease infinite !important;
+  -moz-animation: BackgroundLoop 20s ease infinite !important;
+  animation: BackgroundLoop 20s ease infinite !important;
+}
+
+@-webkit-keyframes BackgroundLoop {
+  0%{background-position:0% 70%}
+  50%{background-position:100% 70%}
+  100%{background-position:0% 70%}
+}
+@-moz-keyframes BackgroundLoop {
+  0%{background-position:0% 70%}
+  50%{background-position:100% 70%}
+  100%{background-position:0% 70%}
+}
+@keyframes BackgroundLoop {
+  0%{background-position:0% 0%}
+  50%{background-position:100% 0%}
+  100%{background-position:0% 0%}
+}
+
+.l-main{
+  width: 100%;
+  height: 100%;
+
+  &__gradient{
+    @extend .l-main;
+
+    &.--animate{
+      @extend %background-animation;
+    }
+  }
+}

@@ -1,0 +1,34 @@
+@import'../modules/base.scss';
+
+main.login {
+  @extend %background-animation;
+  width: 100vw;
+  height: 100vh;
+}
+
+.login-frame{
+  width:auto;
+  max-width: 300px;
+  min-width: 300px;
+  margin-left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  //padding: 0px 20px 0px 20px !important;
+  position: relative;
+  color: white;
+}
+
+.google-login{
+  background: rgba(255,255,255,0.2);
+  width: 100%;
+  height: 40px;
+  color: white;
+  font-weight: 500;
+  margin-top: 10px;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.google-login:hover{
+  background: rgba(255,255,255,0.5)
+}

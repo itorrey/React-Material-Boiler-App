@@ -1,0 +1,104 @@
+.background-theme, main.login {
+  background: radial-gradient(#1afcdd, #046191) !important;
+  background-size: 600% 600% !important;
+  -webkit-animation: BackgroundLoop 20s ease infinite !important;
+  -moz-animation: BackgroundLoop 20s ease infinite !important;
+  animation: BackgroundLoop 20s ease infinite !important; }
+
+@-webkit-keyframes BackgroundLoop {
+  0% {
+    background-position: 0% 70%; }
+  50% {
+    background-position: 100% 70%; }
+  100% {
+    background-position: 0% 70%; } }
+
+@-moz-keyframes BackgroundLoop {
+  0% {
+    background-position: 0% 70%; }
+  50% {
+    background-position: 100% 70%; }
+  100% {
+    background-position: 0% 70%; } }
+
+@keyframes BackgroundLoop {
+  0% {
+    background-position: 0% 0%; }
+  50% {
+    background-position: 100% 0%; }
+  100% {
+    background-position: 0% 0%; } }
+
+.background-theme, main.login {
+  background: radial-gradient(#1afcdd, #046191) !important;
+  background-size: 600% 600% !important;
+  -webkit-animation: BackgroundLoop 20s ease infinite !important;
+  -moz-animation: BackgroundLoop 20s ease infinite !important;
+  animation: BackgroundLoop 20s ease infinite !important; }
+
+@-webkit-keyframes BackgroundLoop {
+  0% {
+    background-position: 0% 70%; }
+  50% {
+    background-position: 100% 70%; }
+  100% {
+    background-position: 0% 70%; } }
+
+@-moz-keyframes BackgroundLoop {
+  0% {
+    background-position: 0% 70%; }
+  50% {
+    background-position: 100% 70%; }
+  100% {
+    background-position: 0% 70%; } }
+
+@keyframes BackgroundLoop {
+  0% {
+    background-position: 0% 0%; }
+  50% {
+    background-position: 100% 0%; }
+  100% {
+    background-position: 0% 0%; } }
+
+.background-light-hint {
+  background: rgba(255, 255, 255, 0.2) !important; }
+
+.background-theme-light {
+  background: radial-gradient(#1afcdd, #046191) !important;
+  background-size: 600% 600% !important;
+  background-position: 100% 0% !important; }
+
+.custom-list-item {
+  color: white !important; }
+
+.drawer-background-theme-light div[class^=MuiPaper-root] {
+  background: radial-gradient(#1afcdd, #046191) !important;
+  background-size: 600% 600% !important;
+  background-position: 100% 0% !important; }
+
+main.login {
+  width: 100vw;
+  height: 100vh; }
+
+.login-frame {
+  width: auto;
+  max-width: 300px;
+  min-width: 300px;
+  margin-left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: relative;
+  color: white; }
+
+.google-login {
+  background: rgba(255, 255, 255, 0.2);
+  width: 100%;
+  height: 40px;
+  color: white;
+  font-weight: 500;
+  margin-top: 10px;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif; }
+
+.google-login:hover {
+  background: rgba(255, 255, 255, 0.5); }

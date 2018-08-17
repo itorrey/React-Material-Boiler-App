@@ -1,0 +1,23 @@
+@-webkit-keyframes BackgroundLoop {
+  0% {
+    background-position: 0% 70%; }
+  50% {
+    background-position: 100% 70%; }
+  100% {
+    background-position: 0% 70%; } }
+
+@-moz-keyframes BackgroundLoop {
+  0% {
+    background-position: 0% 70%; }
+  50% {
+    background-position: 100% 70%; }
+  100% {
+    background-position: 0% 70%; } }
+
+@keyframes BackgroundLoop {
+  0% {
+    background-position: 0% 0%; }
+  50% {
+    background-position: 100% 0%; }
+  100% {
+    background-position: 0% 0%; } }

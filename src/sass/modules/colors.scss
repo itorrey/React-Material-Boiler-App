@@ -1,0 +1,31 @@
+
+$theme-color-light: rgb(26,252,221);
+$theme-color-middle: rgb(26,232,221);
+$theme-color-dark: rgb(4,97,145);
+
+$theme-color-light-hint: rgba(4,97,145,0.1);
+$theme-color-dark-hint: rgba(26,252,221,0.1);
+
+%background-animation{
+  background: radial-gradient($theme-color-light, $theme-color-dark) !important;
+  background-size: 600% 600% !important;
+  -webkit-animation: BackgroundLoop 20s ease infinite !important;
+  -moz-animation: BackgroundLoop 20s ease infinite !important;
+  animation: BackgroundLoop 20s ease infinite !important;
+}
+
+@-webkit-keyframes BackgroundLoop {
+  0%{background-position:0% 70%}
+  50%{background-position:100% 70%}
+  100%{background-position:0% 70%}
+}
+@-moz-keyframes BackgroundLoop {
+  0%{background-position:0% 70%}
+  50%{background-position:100% 70%}
+  100%{background-position:0% 70%}
+}
+@keyframes BackgroundLoop {
+  0%{background-position:0% 0%}
+  50%{background-position:100% 0%}
+  100%{background-position:0% 0%}
+}
