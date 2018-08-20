@@ -1,5 +1,5 @@
-React Material Boiler App
-=========================
+# React Material Boiler App
+
 > A boilerplate responsive web app built with React, Redux and MaterialUI.
 
 [![npm version](http://img.shields.io/npm/v/react-material-boiler-app.svg?style=flat)](https://npmjs.org/package/react-material-boiler-app "View this project on npm")
